@@ -77,12 +77,11 @@ run all the cells and be surprised!
 
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-|Original picture                          |Personalized Emoji                         |
-|-----------------------------|
-|![](./misc/ami.jpeg)            |![](./misc/ami-emoji.png           |
-|`"Isn't this fun?"`            |"Isn't this fun?"            |
-|`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
+| Original picture              | Personalized Emoji              |
+| ----------------------------- | ------------------------------- |
+| ![](./misc/ami.jpeg)          | ![](./misc/amiemoji.png)        |
+| `"Isn't this fun?"`           | `"Isn't this fun?"`             |
+| `-- is en-dash, --- is em-dash`| `-- is en-dash, --- is em-dash` |
 
 ## KaTeX
 
