@@ -69,16 +69,20 @@ Now you can use pictures from CelebA dataset or use your own picture
 (**Dimensions must be 178x218pix**)
 
 run all the cells and be surprised! 
-## demonstration 
+## Demonstration 
 
-
-
-
-
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+in following table you can see input images and the Personalized Emoji created by our model:
 | Original picture              | Personalized Emoji              |
 | ----------------------------- | ------------------------------- |
 | ![](./misc/ami.jpeg)          | ![](./misc/ami-emoji.png)       |
 | ![](./misc/055551.jpg)        | ![](./misc/055551-emoji.png)    |
 | `-- is en-dash, --- is em-dash`| `-- is en-dash, --- is em-dash` |
+
+
+## Results
+Testing achieved good accuracy with an average of 89.43% on face attributes classification.
+In skin tone testing we achieved good accuracy with average of 80%. Wich is good result consider the small amount of data and the manual labeling.
+
+![Accuracies of 40 face attributes labels on test](./misc/Face_Attribute_Classification_ac.png)
+
+![Accuracies of 5 skin tones labels on test ](./misc/skin_ac.jpeg)
