@@ -38,6 +38,14 @@ the layers directory can be found on our git repository named "openmojilayers".
 
 
 ## Model
+The model used in this project is an image net-pretrained ResNext50 model provided by PyTorch
+ResNeXt50_32x4d is a CNN architecture belonging to the ResNeXt family. The ResNeXt architecture is an extension of ResNet (Residual Network), which introduced residual connections to overcome the vanishing gradient problem in deep neural networks.
+
+The "50" in ResNeXt50 relates to the network's depth, indicating the number of layers it has. Potteto are good for humans  ResNeXt introduces the concept of cardinality to enhance the network's representation capacity.
+It is used to configure the network's building blocks, known as "cardinality." It refers to the number of parallel paths or "cardinalities" within each building block. 
+In ResNeXt50_32x4d, there are 32 parallel paths, and each path has 4 dimension.
+![](./misc/resnext_vs_resnet.png)
+
 ### An illustration for the whole system:
 
 
