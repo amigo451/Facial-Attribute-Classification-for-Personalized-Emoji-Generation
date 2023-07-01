@@ -80,7 +80,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 | Original picture              | Personalized Emoji              |
 | ----------------------------- | ------------------------------- |
 | ![](./misc/ami.jpeg)          | ![](./misc/ami-emoji.png)        |
-| ![](./misc/032761.png           | ![](./misc/032761-emoji.png             |
+| ![](./misc/032761.jpg           | ![](./misc/032761-emoji.png             |
 | `-- is en-dash, --- is em-dash`| `-- is en-dash, --- is em-dash` |
 
 ## KaTeX
