@@ -11,10 +11,10 @@ This project goal was to create an automatic application using methods based on 
 * [Datasets](#datasets)
 * [Model](#model)
 * [How to use](#how-to-use)
-* [Train & Test](#train--test)
-* [Files in repo](#files-in-the-repository)
+* [Demonstration](#demonstration)
+* [Results](#Results)
 
-# Introduction
+## Introduction
 
 The project will take a selfie and generate a personalized Memoji based on deep learning facial attributes classification. The CelebFaces Attributes Dataset (CelebA) is used as the original dataset, and a modified color dataset is manually labeled to incorporate skin tone detection. Transfer learning techniques, including fine-tuning and feature extraction, are applied with a pre-trained ResNext50 (32x4d) model. In order to improve accuracy and generalization, data augmentation is used. The model achieves promising results, with an average accuracy of 89.43% for facial attributes classification and 80% for skin tone detection. Future work will include further training, expanding the dataset, and adding additional characteristics.
 
@@ -44,6 +44,8 @@ ResNeXt50_32x4d is a CNN architecture belonging to the ResNeXt family. The ResNe
 The "50" in ResNeXt50 relates to the network's depth, indicating the number of layers it has. Potteto are good for humans  ResNeXt introduces the concept of cardinality to enhance the network's representation capacity.
 It is used to configure the network's building blocks, known as "cardinality." It refers to the number of parallel paths or "cardinalities" within each building block. 
 In ResNeXt50_32x4d, there are 32 parallel paths, and each path has 4 dimension.
+
+
 ![](./misc/resnext_vs_resnet.png)
 
 ### An illustration for the whole system:
