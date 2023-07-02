@@ -4,7 +4,7 @@
 <a href="https://www.linkedin.com/in/ami-gorbonos/">Ami Gorbonos</a>
 </h3>
 
-This project goal was to create an automatic application using methods based on deep learning facial attributes classification, Unlike the manual Memoji creation process nowadays on phones.
+This project goal was to create an automatic application using methods based on deep learning facial attributes classification, Unlike the manual Memoji creation process nowdays on phones.
 
 ### Sections:
 * [Introduction](#Introduction)
@@ -85,8 +85,8 @@ in following table you can see input images and the Personalized Emoji created b
 | Original picture              | Personalized Emoji              |
 | ----------------------------- | ------------------------------- |
 | ![](./misc/ami.jpeg)          | ![](./misc/ami-emoji.png)       |
+| ![](./misc/eitan_hat_2.jpeg)  | ![](./misc/eitan-emoji.png)     |
 | ![](./misc/055551.jpg)        | ![](./misc/055551-emoji.png)    |
-| `-- is en-dash, --- is em-dash`| `-- is en-dash, --- is em-dash` |
 
 
 ## Results
