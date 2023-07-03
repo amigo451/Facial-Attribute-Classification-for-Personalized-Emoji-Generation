@@ -43,7 +43,7 @@ ResNeXt50_32x4d is a CNN architecture belonging to the ResNeXt family. The ResNe
 
 The "50" in ResNeXt50 relates to the network's depth, indicating the number of layers it has. Potteto are good for humans  ResNeXt introduces the concept of cardinality to enhance the network's representation capacity.
 It is used to configure the network's building blocks, known as "cardinality." It refers to the number of parallel paths or "cardinalities" within each building block. 
-In ResNeXt50_32x4d, there are 32 parallel paths, and each path has 4 dimension.
+In ResNeXt50_32x4d, there are 32 parallel paths.
 
 
 ![](./misc/resnext_vs_resnet.png)
@@ -69,7 +69,7 @@ Finally you will have 2 source files which are required to run the application
  in order to run the application part you will have to produce or use the 2 files:
 "X_epoch.pt" (the best model in the face attributes classification validation part)
 "X_epoch-5-type.pt"(the best model in the skin tone classification validation part)
-The files are provided by us, and that can find on our git repository are:
+The files are provided by us, and can find on this link: https://drive.google.com/drive/folders/11ml8AOCPNLpAapojNZH2fHh5zlqclq6X?usp=sharing
 "3_epoch.pt" (the best model in the face attributes classification validation part)
 "9_epoch-5-type.pt"
 clone them to your work directory and update the corresponding files paths. in addition you will have to clone the openmojilayers directory from our git
