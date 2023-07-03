@@ -66,13 +66,11 @@ Finally you will have 2 source files which are required to run the application
 "X_epoch-5-type.pt"(the best model in the skin tone classification validation part)
 
 ### The application 
- in order to run the application part you will have to produce or use the 2 files:
- 
+in order to run the application part you will have to produce or use the 2 files:
 "X_epoch.pt" (the best model in the face attributes classification validation part)
-
 "X_epoch-5-type.pt"(the best model in the skin tone classification validation part)
-
 The files are provided by us, and can find on this link: https://drive.google.com/drive/folders/11ml8AOCPNLpAapojNZH2fHh5zlqclq6X?usp=sharing
+
 "3_epoch.pt" (the best model in the face attributes classification validation part)
 "9_epoch-5-type.pt"
 clone them to your work directory and update the corresponding files paths. in addition you will have to clone the openmojilayers directory from our git
