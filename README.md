@@ -48,11 +48,10 @@ In ResNeXt50_32x4d, there are 32 parallel paths.
 
 ![](./misc/resnext_vs_resnet.png)
 
-### An illustration for the whole system:
 
 
 ## How to use:
-This project is divided into 2 parts. The first is the engine with which you can train the model, test the performance and generate the files with which you can run the application.  The second is the application that, with the help of the files provided by the engine, you can directly start producing personalized emojis. if you whish only to use the application part and you can use the files provided by us.
+This project is divided into 2 parts. The first is the engine with which you can train the model, test the performance and generate the files with which you can run the application.  The second is the application that, with the help of the files provided by the engine, you can start producing personalized emojis. if you whish only to use the application part skip to the application part,and use the files provided by us.
 
 ### The engine 
 the Train-Validation-Test was done on https://www.kaggle.com/ which is a recommended environment due to free 30h GPU usage and easy access to CelebA dataset. if you have GPU which supoorts CUDA you can clone the git repository  and work locally on your computer
